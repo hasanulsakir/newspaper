@@ -49,7 +49,7 @@ body.preloader-active {
     src: url(../Roboto/Roboto-Regular.ttf);
 }
 .image-effect img{
-    transition: transform 1s forwards ease-in-out;
+    transition: transform 1s ease-in-out;
     overflow: hidden;
     filter: grayscale(1);
 
@@ -78,6 +78,7 @@ body.preloader-active {
     height: 100%;
     opacity: 0;
     transition: 3s;
+display:none;
 
 }
 .img-overlay .icon{
