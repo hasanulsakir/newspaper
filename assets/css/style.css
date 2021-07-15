@@ -49,7 +49,7 @@ body.preloader-active {
     src: url(../Roboto/Roboto-Regular.ttf);
 }
 .image-effect img{
-    transition: transform 1s;
+    transition: transform 1s forwards ease-in-out;
     overflow: hidden;
     filter: grayscale(1);
 
